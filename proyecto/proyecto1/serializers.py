@@ -14,3 +14,4 @@ class CodeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Code
         fields = '__all__'
+    

@@ -109,5 +109,4 @@ class EnterpriseFromCodeAPIView(APIView):
             serializer = EnterpriseSerializer(enter, many=True)
             return Response(serializer.data)
         #serializer2 = CodeSerializer(code,many=True)
-        
-        
+
